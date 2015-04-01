@@ -29,7 +29,7 @@ module Minitest
     end
 
     def passed?
-      slowtests.length < maxslow
+      slowtests.length <= maxslow
     end
 
     def report
@@ -38,7 +38,7 @@ module Minitest
       puts "#{slowtests.count} tests exceeded the maximum duration of #{slowtime} msec"
       puts
       self.slowtests.each do |st|
-        puts "#{sprintf("%5.2f", st.time*1000)} msec -----  #{st.name}"
+        puts "#{sprintf("%7.2f", st.time*1000)} msec -----  #{st.name}"
       end
       puts
     end

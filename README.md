@@ -21,16 +21,16 @@ And then execute:
 
 ## Usage
 
-Use the `--maxslow COUNT` flag to set the maximum allowed number of slow tests
-Use the `--slowtime DURATION` flag to specify the duration for a tests to be slow, in milliseconds
+Use the `--maxslow=COUNT` flag to set the maximum allowed number of slow tests
+Use the `--slowtime=DURATION` flag to specify the duration for a tests to be slow, in milliseconds
 
 Direct invocation:
 
-    `ruby test_thing.rb --maxslow 3 --slowtime 30`
+    `ruby test_thing.rb --maxslow=3 --slowtime=30`
 
 Via rake test runner:
 
-    `TESTOPTS='--maxslow 4 --slowtime 42' rake test`
+    `TESTOPTS='--maxslow=4 --slowtime=42' rake test`
 
 ## Credits
 

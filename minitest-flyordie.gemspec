@@ -8,9 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Minitest::Flyordie::VERSION
   spec.authors       = ["John Stewart"]
   spec.email         = ["johns@wellmatchhealth.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Simple Minitest extension to fail test runs on slow tests}
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

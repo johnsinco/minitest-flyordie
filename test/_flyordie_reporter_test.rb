@@ -4,7 +4,7 @@ $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'minitest/flyordie'
 
 describe "slow runs" do
-  5.times do
+  5.times do |t|
     it "is slow" do
       sleep(90/1000.0)
       assert true
