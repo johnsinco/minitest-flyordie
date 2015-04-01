@@ -32,6 +32,10 @@ Via rake test runner:
 
     `TESTOPTS='--maxslow 4 --slowtime 42' rake test`
 
+## Credits
+
+Based on ideas from Step and Nick. And code liberally copied from Nick's minitest-profile gem
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/minitest-flyordie/fork )
