@@ -21,8 +21,9 @@ And then execute:
 
 ## Usage
 
-Use the `--maxslow=COUNT` flag to set the maximum allowed number of slow tests
-Use the `--slowtime=DURATION` flag to specify the duration for a tests to be slow, in milliseconds
+Use the `--maxslow=COUNT` flag to set the maximum allowed number of slow tests.
+
+Use the `--slowtime=DURATION` flag to specify the duration for a tests to be slow, in milliseconds.
 
 Direct invocation:
 
