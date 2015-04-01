@@ -1,4 +1,4 @@
-# Minitest::Flyordie
+# Minitest::FlyOrDie
 
 FlyOrDie is a simple plugin for Minitest that allows you to specify via command-line options a maximum duration for a test to be marked as "slow", and a maximum number of allowable slow tests.  
 If the thresholds are exceeded, the test run will be marked as failed and the list of slow tests will be output.
