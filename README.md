@@ -34,7 +34,7 @@ Via rake test runner:
 
 ## Credits
 
-Based on ideas from Step and Nick. And code liberally copied from Nick's minitest-profile gem
+Based on ideas from [Step](https://github.com/stephenaument) and [Nick](https://github.com/nmeans). And code liberally copied from Nick's [minitest-profile](https://github.com/nmeans/minitest-profile) gem.
 
 ## Contributing
 
