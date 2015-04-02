@@ -32,6 +32,14 @@ module Minitest
       slowtests.length <= maxslow
     end
 
+    ESC = "\e["
+
+    RED = 31
+
+    def puts(str=nil)
+      super "#{ESC}#{RED}m#{str}#{ESC}0m"
+    end
+
     def report
       return if passed?
       puts
