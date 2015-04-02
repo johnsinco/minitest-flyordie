@@ -16,4 +16,8 @@ describe Minitest::FlyOrDieReporter do
     output = `ruby -Ilib:test test/_flyordie_reporter_test.rb --maxslow 6 2>&1`
     output.wont_match 'test_0001_is slow'
   end
+  it "colorizes output upon failure" do
+    output = `ruby -Ilib:test test/_flyordie_reporter_test.rb --maxslow 2 2>&1`
+    output.must_match /\e\[31m/
+  end
 end
